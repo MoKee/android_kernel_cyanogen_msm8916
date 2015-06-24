@@ -18,11 +18,8 @@ config FS_TRANSPARENT_COMPRESSION
 	  If you say Y here, then the kernel will be able to transparently
 	  compress and decompress individual files on a filesystem.
 
-	  Transparent file compression currently supports zlib, gzip, and
-	  lz4 compression methods, depending on the kernel configuration.
-
-	  Transparent compression is indicated by setting file xattrs
-	  user.compression.method and user.compression.realsize.
+	  Transparent file compression currently supports zlib and lz4
+	  compression methods, depending on the kernel configuration.
 
 if BLOCK
 
